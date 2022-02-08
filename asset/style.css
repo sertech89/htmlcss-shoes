@@ -45,9 +45,9 @@
        text-align:right;
    }
 
-   a{
+   /* a{
        display: inline-block;
-   }
+   } */
 
   .menu a{
       float: left;
