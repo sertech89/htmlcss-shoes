@@ -78,36 +78,46 @@
     left: 50%;
     transform:translate( -50%, -50%);
     position: absolute;
+    /* object-fit: cover; */
   }
 
   .full-red h1{
-      top: 70%;
+      top: 75%;
       right: 50%;
       bottom: 50%;
       left: 50%;
       transform:translate( -50%, -50%);
       position: absolute;
       color: yellow;
+      display: inline-block;
+      width: 100%;
+      text-align: center;
   }
 
   .full-green h1{
-    top: 70%;
+    top: 75%;
     right: 50%;
     bottom: 50%;
     left: 50%;
     transform:translate( -50%, -50%);
     position: absolute;
     color: yellow;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
 }
 
 .full-yellow h1{
-    top: 70%;
+    top: 75%;
     right: 50%;
     bottom: 50%;
     left: 50%;
     transform:translate( -50%, -50%);
     position: absolute;
     color: green;
+    display: inline-block;
+    width: 100%;
+    text-align: center;
 }
 
   
