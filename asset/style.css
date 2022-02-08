@@ -41,6 +41,13 @@
       text-align: center;
    } 
 
+   .menu{
+       text-align:right;
+   }
+
+   a{
+       display: inline-block;
+   }
 
   .menu a{
       float: left;
