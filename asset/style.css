@@ -15,11 +15,14 @@
   }
 
   header{
-      background-color: green;
+      position: fixed;
+      right: 0;
+      top: 0;
+      z-index: 1;
   }
 
   .full{
-    height: calc( 100vh - 50px);
+    height: 100vh;
 
   }
 
@@ -45,9 +48,9 @@
        text-align:right;
    }
 
-   /* a{
+   nav{
        display: inline-block;
-   } */
+    }
 
   .menu a{
       float: left;
@@ -67,6 +70,45 @@
     background-color: yellow;
     position: relative;
   }
+
+  img{
+    top: 50%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+    transform:translate( -50%, -50%);
+    position: absolute;
+  }
+
+  .full-red h1{
+      top: 70%;
+      right: 50%;
+      bottom: 50%;
+      left: 50%;
+      transform:translate( -50%, -50%);
+      position: absolute;
+      color: yellow;
+  }
+
+  .full-green h1{
+    top: 70%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+    transform:translate( -50%, -50%);
+    position: absolute;
+    color: yellow;
+}
+
+.full-yellow h1{
+    top: 70%;
+    right: 50%;
+    bottom: 50%;
+    left: 50%;
+    transform:translate( -50%, -50%);
+    position: absolute;
+    color: green;
+}
 
   
 
