@@ -40,10 +40,18 @@
       width: 36px;
       height: 36px;
       padding: 8px;
+      margin: 20px;
       background: #fff;
       border: 2px solid #666;
       text-align: center;
+      /*    oppure per allineare il testo usare il   LINE-HEIGHT  */
+      /*   font-weight: BOLD;   per aggiungere il grassetto  */
    } 
+
+   header nav ul li :hover{
+    box-shadow: 5px 5px 10px violet;
+
+   }
 
    .menu{
        text-align:right;
@@ -94,7 +102,7 @@
       display: inline-block;
       width: 100%;
       text-align: center;
-  }
+      font-family: 'Rubik Mono One', sans-serif;  }
 
   .full-green h1{
     top: 75%;
@@ -107,6 +115,8 @@
     display: inline-block;
     width: 100%;
     text-align: center;
+    font-family: 'Rubik Mono One', sans-serif;
+
 }
 
 .full-yellow h1{
@@ -120,6 +130,7 @@
     display: inline-block;
     width: 100%;
     text-align: center;
+    font-family: 'Rubik Mono One', sans-serif;
 }
 
   
